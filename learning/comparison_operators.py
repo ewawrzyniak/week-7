@@ -12,18 +12,25 @@
 # Append the value of current to the end of the list seconds Please use the list.append() method to do that.
 
 
-seconds = [1.23, 1.45, 1.02]
-current = 1.11
+# seconds = [1.23, 1.45, 1.02]
+# current = 1.11
+# seconds.append(current)
 
-# Remove item 1.45 from seconds.
-seconds = [1.23, 1.45, 1.02, 1.11]
+# print(seconds)
+# # Remove item 1.45 from seconds.
+# seconds = [1.23, 1.45, 1.02, 1.11]
+# seconds.remove(1.45)
 
+# print(seconds)
 
-# Remove items 1.45, 1.02, and 1.11 from seconds.
-seconds = [1.23, 1.45, 1.02, 1.11]
+# # Remove items 1.45, 1.02, and 1.11 from seconds.
+# seconds = [1.23, 1.45, 1.02, 1.11]
+# seconds.remove(1.45)
+# seconds.remove(1.02)
+# seconds.remove(1.11)
 
-
-################################comparison operators#########################
+# print(seconds)
+# ################################comparison operators#########################
 #remember....
 # > greater
 # < less
@@ -38,24 +45,40 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # Comparison Operators Practice  1:
 # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
 
+# num1=36
+# num2=17
+# my_bool= num1>num2
+# print (my_bool)
 
+# if num1 >= num2:
+#     my_bool=True
+# else:
+#     my_bool=False
+
+# print(my_bool)
 
 # Comparison Operators Practice  2:
 # Create two variables (num1 and num2):
 # Inside num1, store the result of the square root of 25
 # Inside num2, store the number 5.
 # Check if num1 is equal to num2 and store the result of that comparison in a variable called my_bool.
+# import math
+# num1=  math.sqrt(25)
+# num2=5
+# my_bool= num1 == num2
+# print(my_bool)
 
+# # Comparison Operators Practice #3:
+# # Create two variables (num1 and num2):
+# num1=64*3
+# num2=24*8
+# # Inside num1, store the result of 64 x 3
 
-# Comparison Operators Practice #3:
-# Create two variables (num1 and num2):
+# # Inside num2, store the result of 24 x 8
 
-# Inside num1, store the result of 64 x 3
-
-# Inside num2, store the result of 24 x 8
-
-# Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
-
+# # Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
+# my_bool=num1 != num2
+# print(my_bool)
 
 
 
@@ -66,3 +89,13 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # Prompt the user for two numbers
 
 # Check for equality and greater number
+
+num1= int(input("input a number"))
+num2= int(input('input another number'))
+
+if num1 == num2:
+    print('Equal')
+elif num1>num2:
+    print(str(num1))
+elif num2>num1:
+    print(str(num2))
